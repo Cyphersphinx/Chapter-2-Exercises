@@ -2,6 +2,7 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
 
 // In general, ignore this file, but keep it around if you are using pre-compiled headers.
 
@@ -71,6 +72,15 @@ void Exer_2_5()
 
 void Exer_2_6()
 {
+	std::string name;
+	double studyHours;
+
+	std::cout << "Enter your name: ";
+	std::cin >> name;
+	std::cout << "\nEnter amount of hours studies: ";
+	std::cin >> studyHours;
+	std::cout << std::endl;
+	std::cout << "Hello, " << name << "! on Saturday, you need to study " << studyHours << " hours for the exam." << std::endl;
 
 }
 
